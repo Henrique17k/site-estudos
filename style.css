@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto,sans-serif;
+}
+
+
+main {
+    background-image: url(3233d4ac-ede6-4f05-b78a-7a17ae3400a7.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height:100vh;
+    padding: 2rem;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);     */
+}
+
+
+
+.left {
+    width: 40%;
+}
+
+h1{
+    color:blueviolet;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+h2{
+    color:blueviolet;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+
+}
+
+
+.text{
+    margin: 5rem 0rem 0rem 0rem;
+    color: rgb(90, 90, 90);
+    font-size: 22px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    font-size: 15px;
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+    margin: 0rem 0rem 0rem 1rem;
+
+}
+
+button:hover{
+    
+    background-color: #ff5125;
+    color: aliceblue;
+    transition: 0.2S;
+    cursor: pointer;
+}
+
+.button-left{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+ul {
+    background-color: #e3e0e765;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+    /* margin:0rem 2rem 0rem 0rem; */
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
+
+
+li{
+    width: 100px;
+    /* margin-right:1rem  ; */
+    /* text-align: right; */
+    font-size: 20px;
+    padding: 0.5rem;
+    text-align: center; 
+    justify-content: center;
+    border-radius: 20px;
+}
+
+li:hover{
+    background-color:rgb(154, 68, 235);
+    transition: 0.1s;
+
+}
+
+a {
+    text-decoration: none;
+    color:blueviolet;
+    cursor: pointer;}
+
+a:hover {
+    /* color: #ff5125; */
+    color: rgb(255, 255, 255);
+}
+
+svg{
+    width: 20px;
+    margin: 7px;
+}
+
+img {
+    width: 700px;
+    margin-top: 10rem;
+}
